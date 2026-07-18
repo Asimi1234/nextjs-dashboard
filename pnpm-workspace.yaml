@@ -1,3 +1,8 @@
 allowBuilds:
-  bcrypt: true
-  sharp: true
+  bcrypt: false
+  sharp: false
+  unrs-resolver: false
+onlyBuiltDependencies:
+  - bcrypt
+  - sharp
+  - unrs-resolver
